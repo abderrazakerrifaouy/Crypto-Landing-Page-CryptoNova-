@@ -1,0 +1,651 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 98.7%;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.leftHeader .logo {
+    width: 33px;
+    height: 33px;
+}
+
+.textLogo {
+    font-size: 24px;
+    font-family: initial;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.centerHeader {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.centerHeader p a {
+    color: #767799;
+    text-decoration: none;
+}
+
+.centerHeader p a:hover {
+    color: #fff;
+}
+
+.rightHeader {
+    margin-right: 40px;
+}
+
+.signIn {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+}
+
+.signIn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    height: 100vh;
+    background-color: #12132A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textLeft {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 85px;
+    width: 400px;
+    z-index: 1;
+}
+
+.contanteText {
+    color: #767799;
+    width: 400px;
+    z-index: 1;
+}
+
+.contanteButtom {
+    margin-top: 30px;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contanteButtom p {
+    color: #767799;
+}
+
+.buttoncontent {
+    border: 2px solid #fff;
+    padding: 10px;
+    z-index: 1;
+}
+
+.buttoncontent a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contanteButtom p strong {
+    color: #fff;
+}
+
+.shadow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #2600ff74 0%, #12132A 60%);
+    filter: blur(10px);
+    z-index: 0;
+}
+
+.menuFoter {
+    background-color: #162446;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+
+.itemMenu {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgRight img {
+    margin-top: 10%;
+    width: 90%;
+}
+
+.logoMenu {
+    width: auto;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.textMenu {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.item {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.headF {
+    color: #C23893;
+}
+
+.footerButtom {
+    display: flex;
+    align-items: center;
+    height: 15px;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #C23893;
+    color: #fff;
+}
+
+.fa {
+    margin: 0px 10px;
+}
+
+.containerAboute {
+    height: 100vh;
+    padding-top: 30vh;
+    background-color: #12132A;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerAboute p {
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+
+}
+
+.textHeader {
+    color: #767799;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    width: 20%;
+    border: 3px solid #C23893;
+    border-radius: 20px;
+    height: 80%;
+}
+
+.card p {
+    width: 90%;
+    text-align: start;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content p {
+    text-align: center;
+}
+
+.content h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.us_About {
+    color: #C23893;
+    font-size: 20px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    background-color: #12132A;
+    width: 100%;
+    height: 80vh;
+    padding-bottom: 20px;
+}
+
+.containerService {
+    background-color: #12132A;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.containerService h1 {
+    width: auto;
+    text-align: center;
+}
+
+.description {
+    width: auto;
+    text-align: center;
+    color: #767799;
+}
+
+.contenServise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 50vh;
+}
+
+.cardServise1 {
+    border-right: 3px solid #C23893;
+    border-bottom: 3px solid #C23893;
+}
+.cardServise2 {
+    border-right: 3px solid #C23893;
+    border-left: 3px solid #C23893;
+    border-bottom: 3px solid #C23893;
+}
+.cardServise3{
+    border-left: 3px solid #C23893;
+    border-bottom: 3px solid #C23893;
+}
+
+.cardServise4 {
+    border-right: 3px solid #C23893;
+    border-top: 3px solid #C23893;
+}
+.cardServise5 {
+    border-right: 3px solid #C23893;
+    border-left: 3px solid #C23893;
+    border-top: 3px solid #C23893;
+}
+.cardServise6{
+    border-left: 3px solid #C23893;
+    border-top: 3px solid #C23893;
+}
+.cardServise{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #767799;
+    text-align: center;
+    padding: 10px;
+}
+.cardServise p{
+    padding: 10px;
+}
+.works{
+    background-color: #12132A;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.itemsWorks1{
+    height: 90%;
+    width: 45%;
+    color: #fff;
+}
+.itemsWorks2{
+    width: 45%;
+    color: #fff;
+    padding: 30px;
+}
+.itemsWorks2 h2{
+    width: 50%;
+    padding: 20px 0px;
+}
+.button{
+    width: 147px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    margin-top: 40px;
+}
+.testimonials{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #12132A;
+    width: 100%;
+}
+.buttomT{
+    width: 90%;
+    height: 70%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.cardButtom{
+    width: 20%;
+    height: 70%;
+    background-image: url(/media/vitalik-buterin__22210.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.headT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.contentShadow{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top , #000000, #ffffff00);
+    border-radius: 30px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contentShadow h3{
+    width: 100%;
+}
+.contentShadow p{
+    width: 100%;
+}
+.but{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px  10px;
+}
+.but img{
+    width: 80%;
+    height: 80%;
+}
+.containerEvents{
+    background-color: #12132A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 180vh;
+    padding: 20px;
+}
+.toTop{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toButtom{
+    height: 80vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.phone{
+    width: 40%;
+    height: 90%;
+}
+.textEventsTop{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #767799;
+    text-align: start;
+}
+.textEventsButtom{
+    padding: 30px;
+    width: 40%;
+    height: 90%;
+    color: #fff;
+}
+.ImageEventsButtom{
+    width: 40%;
+    height: 90%;
+}
+.ImageEventsButtom img ,.phone img {
+    width: 100%;
+    height: 100%;
+}
+.menuIconEvent{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.items{
+    width: 100%;
+    height: 30%;
+
+}
+.headerItemes{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.textEventsTop p{
+    color: #C23893;
+    font-size: 16px;
+    padding: 10px;
+}
+.textEventsTop h2{
+    color: #ffffff;
+    font-size: 46px;
+    padding: 10px;
+}
+.menuIconEvent p{
+    color: #767799;
+}
+.textEventsButtom h1{
+    width: 60%;
+    text-align: start;
+}
+.textEventsButtom p{
+    width: 70%;
+    text-align: start;
+    margin-top: 40px;
+}
+.button p{
+    width: auto;
+    margin: 0px;
+}
+.contenerContacts{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #12132A;
+    gap: 10px;
+}
+.rightContact{
+    width: 40%;
+    height: 60%;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftContact{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.textContact{
+    width: 90%;
+    height: 40%;
+}
+.iconContact{
+    width: 90%;
+    height: 40%;
+}
+.topContact{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.centerContact{
+    margin-top: 20px;
+    width: 90%;
+    height: 30%;
+}
+.buttonContact{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sujet{
+    width: 70%;
+    height: 40%;
+}
+.fulleName{
+    width: 70%;
+    height: 40%;
+    
+}
+.description{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.buttonContact input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #162446;
+    border: 0px;
+    color: #fff;
+}
+.fullInput{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #fff;
+    padding: 5px;
+}
+.descriptionInput{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: start;
+    color: #fff;
+    padding: 5px;
+    
+}
+.textContact h1{
+    color: #ffffff;
+    font-size: 46px;
+    padding: 10px;
+}
+.textContact p{
+    color: #767799;
+    width: 80%;
+    margin-top: 10px;
+
+}
+.iconContact p{
+    color: #767799;
+    margin-top: 10px;
+}
+.watssap , .Facebook , .linkdin {
+    width: 40%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    color: #fff;
+    font-size: larger;
+    padding: 20px;
+}
+.watssap img , .Facebook img , .linkdin img{
+    width: 20%;
+    height: 20%;
+}
