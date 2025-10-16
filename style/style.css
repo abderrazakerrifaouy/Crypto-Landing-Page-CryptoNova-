@@ -649,3 +649,87 @@
     width: 20%;
     height: 20%;
 }
+.contentImg{
+    width: 100%;
+    height: 100%;
+    background-color: #C23893;
+}
+.containerFeedback{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #12132A;
+}
+.contenFedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 60%;
+}
+ .cardFeedback{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #767799;
+    text-align: center;
+    padding: 10px;
+}
+.cardFeedback1 {
+    border-right: 3px solid #C23893;
+    border-bottom: 3px solid #C23893;
+}
+.cardFeedback2 {
+    border-right: 3px solid #C23893;
+    border-left: 3px solid #C23893;
+    border-bottom: 3px solid #C23893;
+}
+.cardFeedback3{
+    border-left: 3px solid #C23893;
+    border-bottom: 3px solid #C23893;
+}
+
+.cardFeedback4 {
+    border-right: 3px solid #C23893;
+    border-top: 3px solid #C23893;
+}
+.cardFeedback5 {
+    border-right: 3px solid #C23893;
+    border-left: 3px solid #C23893;
+    border-top: 3px solid #C23893;
+}
+.cardFeedback6{
+    border-left: 3px solid #C23893;
+    border-top: 3px solid #C23893;
+}
+.imageBckgrouned{
+    width: 80%;
+    height: 100%;
+    background-image: url(/media/vitalik-buterin__22210.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.contenButtom{
+    padding: 10px;
+    background: linear-gradient(to top , #12132A 20%, #12132a00);
+    height: 50%;
+
+}
+.contenButtom h1{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
